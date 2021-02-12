@@ -1,0 +1,40 @@
+.my-navbar {
+	background: #C26179;
+	color: black;
+	height: 50px;
+}
+
+.cover {
+	height: 400px;
+	background-color: black;
+	text-align: center;
+	line-height: 250px;
+	font-size: 50px;
+	color: #C26179;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: black;
+}
+
+img {
+	width: 370px;
+	height: 350px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+body {
+	background-color: black;
+}
+
+hr {
+	border: 5px solid #C26179;
+}
